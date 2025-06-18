@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Select Your Device</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+    }
+
+    h1 {
+      color: #222;
+    }
+
+    p {
+      color: #444;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .instructions {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .instructions h3 {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .android-title {
+      color: green;
+    }
+
+    .ios-title {
+      color: #1E90FF;
+    }
+
+    ol {
+      padding-left: 20px;
+    }
+
+    .instructions button {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      margin-top: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .android-btn {
+      background-color: green;
+    }
+
+    .ios-btn {
+      background-color: #1E90FF;
+    }
+
+    .instructions button:hover {
+      opacity: 0.9;
+      transform: scale(1.03);
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Tyr Rewards Offer</h1>
+        <p>Select your device to get started</p>
+    </header>  
+    <div class="container">
+    <!-- Android Instructions -->
+    <div class="instructions">
+      <h3 class="android-title">📱 Android Instructions</h3>
+      <ol>
+        <li>Tap the <strong>Continue</strong> button below.</li>
+        <li>You'll be redirected to the Google Play Store.</li>
+        <li>Install the <strong>Tyr Rewards: Coin Master Games</strong> app.</li>
+        <li>Open the app and register using your real email and personal details.</li>
+        <li>Within the app, choose and install any offer listed to complete your task.</li>
+        <li>Take a screenshot inside the app after completing a deal.</li>
+      </ol>
+      <button class="android-btn" onclick="location.href='https://rockingfolders.com/show.php?l=0&u=1671034&id=70382'">
+        Continue (Android)
+      </button>
+    </div>
+
+    <!-- iOS Instructions -->
+    <div class="instructions">
+      <h3 class="ios-title">🍏 iOS Instructions</h3>
+      <ol>
+        <li>Tap the <strong>Continue</strong> button below.</li>
+        <li>You'll be redirected to the App Store.</li>
+        <li>Install the <strong>Tyr Rewards: Coin Master Games</strong> app.</li>
+        <li>Open the app and sign up using your real email and personal information.</li>
+        <li>Select and install any app within Tyr Rewards to activate your reward eligibility.</li>
+        <li>Take a screenshot after you've completed one of the deals inside the app.</li>
+      </ol>
+      <button class="ios-btn" onclick="location.href='https://rockingfolders.com/show.php?l=0&u=1671034&id=70381'">
+        Continue (iOS)
+      </button>
+    </div>
+  </div>
+
+</body>
+</html>
